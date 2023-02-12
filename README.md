@@ -37,7 +37,7 @@ There is no problem even if you do not store it.
 ```
 
 # Usage
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GitarthVaishnav/42028_YOLOX/blob/main/YOLOX_Colaboratory_Training_Sample.ipynb)<br>
+[![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)<br>
 Training will be performed on Google Colaboratory.<br>
 Open your notebook from the [Open In Colab] link and run it in the order of cells in the notebook.
 
