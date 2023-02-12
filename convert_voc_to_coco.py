@@ -206,13 +206,9 @@ def convert_xml_to_json(
         # 画像ファイル名取得
         path = get_element(root, "path")
         if len(path) == 1:
-            print("in  1")
             filename = get_basename_with_ext(path[0].text)
-            print(filename)
         elif len(path) == 0:
-            print("in  0")
             filename = get_element(root, "filename", 1).text
-            print(filename)
         else:
             raise ValueError("%d paths found in %s" % (len(path), xml_file))
 
